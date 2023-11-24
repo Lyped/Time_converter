@@ -1,0 +1,18 @@
+.box{
+    margin-top: 20px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 15vh;
+    border-radius: 12px;
+    background-color: #6642c9;
+    transition: ease-in 0.2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.number{
+    color: yellow;
+    margin: 0px 10px;
+}

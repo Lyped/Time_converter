@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.block {
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    border-radius: 12px;
+    background-color: #6642c9;
+    transition: ease-in 0.2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.selectValues {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 3rem;
+}
+
+.selectValues select {
+    width: 12rem;
+    height: 3rem;
+    text-indent: 10px;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid #613fbe;
+    font-size: 20px;
+    background-color: #271b47;
+    cursor:pointer;
+}
+
+/* Chrome */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.inputValues input {
+    width: 12rem;
+    height: 3rem;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    border: 1px solid #613fbe;
+    font-size: 20px;
+    background-color: #271b47;
+    
+}
+
+.submitbtn {
+    background-color: rgb(16, 129, 16);
+    border-radius: 15px;
+    color: white;
+    border: 2px solid rgb(21, 201, 21);
+    padding: 15px 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: ease 0.3s;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.submitbtn:hover{
+    cursor: pointer;
+    background-color: rgb(19, 209, 19);
+    transition: ease 0.3s;
+    
+}
